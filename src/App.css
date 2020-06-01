@@ -28,6 +28,91 @@ body{
   font-family: 'Libre Baskerville', serif;
 }
 
+.btn{
+  border-radius:15px ;
+  margin: 10px;
+  padding: 8px;
+  background-color:plum;
+  font-weight:bold;
+  font-family: 'Libre Baskerville', serif;
+
+
+}
+
+
+
+.title{
+font-weight: bold;
+font-size: large;
+text-decoration: underline;
+margin-top: 20px;
+
+}
+
+
+.input{
+
+  padding: 0.5rem 1rem;
+	height: 50px;
+	outline: none;
+	border: none;
+  background-color:white;
+	width: 450px;
+	font-size: 1.15rem;
+	margin: 0.25rem;
+	border-radius: 25px;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 390px;
+
+}
+
+
+
+.button{
+
+margin: 20px;
+
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .App-logo {
